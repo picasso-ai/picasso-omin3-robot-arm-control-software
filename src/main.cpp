@@ -29,15 +29,15 @@ void setup()
 void loop()
 {
     float a, b, c, d, e;
-    spt(1, 100, 3); // Moves motor 1 to 100° at 3rpm
+    spt(1, 100, 3); // Moves motor 1 move to 100° at 3rpm
     delay(4000);
     spt(1, 0, 3); // Moves motor 1 back to 0° at 3rpm
     delay(4000);
-    a = read_lim(1, 1); // Motor temperature limit
-    b = read_PID(1, 1); // Motor PID parameter
-    c = read_rd(1, 1);  // Motor running speed
-    d = read_status(1); // Motor status 
-    e = read_mode(1);   // Motor mode (torque, speed or position)
+    a = read_lim(1, 1); // Read motor 1's temperature limit, pass to variable a
+    b = read_PID(1, 1); // Read motor 1's PID parameter value
+    c = read_rd(1, 1);  // Read motor 1's operating speed
+    d = read_status(1); // Read motor 1's status 
+    e = read_mode(1);   // Read motor 1's mode (torque, speed or position)
     
     printf("%.2f, %.2f, %.2f, %.2x, %.2x\n", a, b, c, d, e);
 }
