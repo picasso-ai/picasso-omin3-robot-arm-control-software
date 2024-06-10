@@ -3,7 +3,7 @@
  * @Date: 2021-10-06 11:26:15
  * @LastEditTime: 2021-11-11 17:43:55
  * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @Description: Open koroFileHeader. Review configuration here: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \ESP32-Arduino-CAN\examples\esp32can_basic\esp32can_basic.ino
  */
 #include <Arduino.h>
